@@ -65,7 +65,7 @@ go install github.com/toddkazakov/kyaml-a2c@latest
 
 After you install the tool, you can run it by providing the path to the manifests
 ```bash
-kyaml-a2c --path=./examples
+$GOPATH/bin/kyaml-a2c --path=./examples
 cat ./examples/manifests.yaml
 ```
 
