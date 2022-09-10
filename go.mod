@@ -1,4 +1,4 @@
-module github.org/toddkazakov/kyaml-a2c
+module github.com/toddkazakov/kyaml-a2c
 
 go 1.18
 

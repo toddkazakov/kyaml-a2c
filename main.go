@@ -3,7 +3,7 @@ package main
 import (
 	"flag"
 	"fmt"
-	"github.org/toddkazakov/kyaml-a2c/annotation"
+	"github.com/toddkazakov/kyaml-a2c/annotation"
 	"log"
 )
 

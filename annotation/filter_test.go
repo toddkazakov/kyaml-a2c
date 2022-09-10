@@ -4,7 +4,7 @@ import (
 	"bytes"
 	"fmt"
 	"github.com/google/go-cmp/cmp"
-	"github.org/toddkazakov/kyaml-a2c/annotation"
+	"github.com/toddkazakov/kyaml-a2c/annotation"
 	"sigs.k8s.io/kustomize/kyaml/kio"
 	"sigs.k8s.io/kustomize/kyaml/yaml"
 	"testing"
