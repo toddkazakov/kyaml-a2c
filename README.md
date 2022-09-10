@@ -79,11 +79,11 @@ Kubernetes resource annotations are key/value pairs. `kyaml-a2c` looks for annot
 configured prefix (defaults to `comment.kyaml.io/set.`) followed by the field path in the yaml file. The path segement
 separator is `.`. A comment with the annotation value will be added to the referenced field.
 
-#### Examples
+### Examples
 
 `kyaml-a2c` will only set comments to scalar fields and will ignore field that don't exist.
 
-##### Updating Map Fields:
+#### Updating Map Fields:
 Input:
 ```yaml
 annotations:
@@ -100,7 +100,7 @@ spec:
 ...
 ```
 
-##### Updating List Elements:
+#### Updating List Elements:
 Input:
 ```yaml
 annotations:
